@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+    font-family:"poppins",sans-serif;
+    background-color: black;
+    
+    
+}
+.nav{
+    background-color: transparent;
+    width:100%;
+    height:80%;
+}
+.checkbtn{
+    font: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#checkbox{
+    float: right;
+    margin-right:45px;
+    margin-left: -28rem;
+    margin-top: 2.5rem;
+    display: none;
+
+   
+}
+label.logo{
+    line-height: 80px;
+    padding: 0 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 05px;
+    padding: 10px 0 0;
+}
+nav ul li a{
+    color:white;
+    font-size: 20px;
+    border-radius: 2px;
+    box-shadow: 0 5px solid black;
+    text-decoration: none;
+}
+a:active,a:hover{
+    color: rgb(236, 195, 8);
+    transition: 2s;
+}
+.pic1 img{
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    opacity: 0.10;
+    
+}
+.others h1{
+    color: white;
+   margin-top: -46rem;
+   text-align: center;
+   font-size: 40px;
+}
+.others p{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    font-size: 13px;
+}
+.nav1 a{ 
+    color: rgb(255, 251, 251);
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 10rem;
+    background-color:rgb(54, 53, 53);
+    padding: 2px 32px;
+    margin-top: 10rem;
+    margin-left: 8.50rem;
+
+}
+
+    
+a:active,a:hover{
+    color: rgb(236, 195, 8);
+    font-size: larger;
+    transition: 4s;
+    
+}
+
+.interior1 img{
+    width:25%;
+    margin-left:5rem;
+    margin-top: 3rem;
+    
+    
+}
+.interior2 img{
+    margin-left: 59rem;
+    width: 25%;
+    margin-top: -24rem;
+    margin-bottom: 1.80rem;
+}
+.interior3 img{
+    width: 25%;
+    margin-left: 32rem;
+    margin-bottom: 16rem;
+    margin-top: -16rem;
+   
+}
+.backgroundimage4{
+    background-image: url(grey\ back.png);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    margin-top: 30rem;
+    height: 500px;
+   
+
+}
+.last1 img{
+    width: 10%;
+    margin-left: 7rem;
+    margin-bottom: -9rem;
+  }
+  .last1 p{
+      color: white;
+      margin-left: 30rem;
+      margin-top: -20rem;
+  }
+  .line1 img{
+      width: 10%;
+      margin-left: 17rem;
+      margin-top: -7rem;
+     margin-bottom: 1rem;
+  
+  }
+  .last2 h1{
+      margin-left: 18rem;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      margin-top: 5rem;
+      margin-bottom: -3rem;
+  
+  }
+  .last2 p{
+      margin-left: 18.60rem;
+      color:  rgb(168, 164, 164);
+      font-size: 14px;
+      margin-top: 4rem;
+  }
+  .last2 p1{
+      margin-left: 18.60rem;
+      color: rgb(168, 164, 164);
+      font-size: 14px;
+      margin-top: 4rem;
+  }
+  .last2 h2{
+      margin-left: 18.60rem;
+      color:  rgb(168, 164, 164);
+      font-size: 14px;
+      margin-bottom: -5rem;
+      font-weight: 300;
+  }
+  .icons1 img{
+      width:2%;
+      margin-top: 7rem;
+      margin-left: 51rem;
+  }
+  .icons2 img{
+      width: 3%;
+      margin-top: -3.20rem;
+      margin-bottom: 4rem;
+      margin-left: 53rem;
+  }
+  .icons3 img{
+      margin-left: 55.70rem;
+      margin-top: -16rem;
+      width: 2%;
+      margin-bottom: 5.70rem;
+  }
+  .last3 h1{
+      margin-left: 50rem;
+      margin-top: -19.70rem;
+  }
+  .last3 p{
+      margin-left: 50rem;
+  }
+  .last3 p1{
+      margin-left: 50.10rem;
+  }
+  .line2 img{
+   margin-left: 49rem;
+   width: 10%;
+   margin-top:-11rem;
+  }
+  .loc1 h1{
+      color: rgb(255, 248, 248);
+      margin-top: -9rem;
+     margin-left: 18rem;
+  }
+  .line3 img{
+      margin-left:17rem;
+      margin-top: -5rem;
+  }
+  .loc1 p{
+      margin-left:19rem ;
+  }
+  .loc2 h1{
+      margin-top: -9rem;
+      margin-left: 50rem;
+  }
+  .line4 img{
+      margin-left:49rem;
+      margin-top: -11rem;
+  }
+  
